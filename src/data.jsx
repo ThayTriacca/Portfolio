@@ -6,6 +6,7 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
+  FaGithub,
   FaHtml5,
   FaJsSquare,
   FaCss3Alt,
@@ -15,12 +16,12 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from './assets/bookipage.png';
+import Work2 from './assets/ohmyfood.png';
+import Work3 from './assets/GoMike.png';
+import Work4 from './assets/Kanap.png';
+import Work5 from './assets/HotTakes.png';
+import Work6 from './assets/Groupomania.png';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -208,22 +209,22 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Booki',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Website',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: <a className="portfolio__links" href='https://github.com/ThayTriacca/Booki'>Booki</a>,
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'HTML and CSS',
       },
       {
         icon: <FiExternalLink />,
@@ -236,7 +237,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Oh My Food',
     details: [
       {
         icon: <FiFileText />,
@@ -244,14 +245,14 @@ export const portfolio = [
         desc: 'Website',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: <a className="portfolio__links" href='https://github.com/ThayTriacca/OhMyFood'>OhMyFood</a>,
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'HTML and Sass',
       },
       {
         icon: <FiExternalLink />,
@@ -264,22 +265,22 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Go Mike',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website - Optimization',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: <a className="portfolio__links" href='https://github.com/ThayTriacca/GoMike-Designs'>GoMike Designs</a>,
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'HTML and CSS',
       },
       {
         icon: <FiExternalLink />,
@@ -292,22 +293,22 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Kanap',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: <a className="portfolio__links" href='https://github.com/ThayTriacca/Kanap'>Kanap</a>,
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'JavaScript',
       },
       {
         icon: <FiExternalLink />,
@@ -320,19 +321,20 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Hot Takes',
     details: [
       {
         title: 'Project : ',
         desc: 'Website',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: <a className="portfolio__links" href='https://github.com/ThayTriacca/Hot-Takes'>Hot-Takes</a>,
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Node.JS, Express and MongoDB',
       },
       {
         title: 'Preview : ',
@@ -344,17 +346,17 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Groupomania',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Website',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'Github : ',
+        desc: <a className="portfolio__links" href='https://github.com/ThayTriacca/Groupomania'>Groupomania</a>,
       },
       {
         icon: <FaCode />,
