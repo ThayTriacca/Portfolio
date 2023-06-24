@@ -229,7 +229,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a className="portfolio__links" href='https://thaytriacca.com/projects/booki/'>Booki Website</a>,
       },
     ],
   },
@@ -257,7 +257,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a className="portfolio__links" href='https://thaytriacca.com/projects/ohmyfood'>OhMyFood Website</a>,
       },
     ],
   },
@@ -285,7 +285,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a className="portfolio__links" href='https://thaytriacca.com/projects/gomikedesigns'>GoMike Designs</a>,
       },
     ],
   },
